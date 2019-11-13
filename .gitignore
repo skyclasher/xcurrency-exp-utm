@@ -1,0 +1,8 @@
+packages
+.vs
+build/*
+!build/build.xml
+bin
+obj
+packages
+google-services.json

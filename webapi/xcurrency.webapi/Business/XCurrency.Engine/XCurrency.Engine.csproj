@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\xcurrency.entities\XCurrency.Entities.csproj" />
+    <ProjectReference Include="..\..\Shared\XCurrency.Framework\XCurrency.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
